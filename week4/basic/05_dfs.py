@@ -55,7 +55,7 @@ def dfs(graph, start, visited=None):
     ## 방문하지 않은 정점이면 재귀 호출
     for neighbor in graph[start]:
         if neighbor not in visited:
-            dfs(graph, start+1, visited)
+            dfs(graph, neighbor, visited)
     pass
     
     return visited
