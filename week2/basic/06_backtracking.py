@@ -61,7 +61,7 @@ def combinations(n, k):
             current_combination.pop()
         pass
     
-    backtrack(1, [])
+    backtrack(1, current_combination)
     return result
 
 def combinations_itertools_compare(n, k):
