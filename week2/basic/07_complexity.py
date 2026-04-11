@@ -53,8 +53,7 @@ def find_duplicates_sorting(nums):
         return []
     
     # TODO: 배열을 정렬하세요 (nums.sort() 사용)
-    else:
-        nums.sort()    
+    nums.sort()    
     pass
     
     duplicates = []
